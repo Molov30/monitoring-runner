@@ -15,7 +15,7 @@ pub struct Args {
     #[arg(long, default_value_t = 20109)]
     pub grpc_port: u64,
 
-    #[arg(long, default_value_t = 20400)]
+    #[arg(long, default_value_t = 20040)]
     pub prometheus_port: u64,
 
     #[arg(long, default_value = default_tickets_dir(), value_parser = existing_dir)]
